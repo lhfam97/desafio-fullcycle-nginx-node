@@ -22,8 +22,6 @@ Suba tudo em um repositório e faça a entrega.
 docker-compose up -d
 ```
 
-**Critério de aceite:** A imagem de nosso projeto Go precisa ter menos de 2MB.
-
 ## Passos para execução do desafio
 
 1 - Passo > Rodar o docker-compose up -d
