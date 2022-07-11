@@ -42,7 +42,7 @@ app.get("/generate", async (req, res) => {
   const newName = await generateRandomName();
   const sql = `INSERT INTO people(name) values('${newName}')`;
   connection.query(sql);
-  return res.send(201);
+  return res.sendStatus(201);
 });
 
 app.listen(port, () => {
